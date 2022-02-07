@@ -1,0 +1,8 @@
+.balance-table {
+  border-collapse: collapse;
+}
+
+.balance-table td > * {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=styles.css.map */

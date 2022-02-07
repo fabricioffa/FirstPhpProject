@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balance</title>
+    <link rel="stylesheet" href="./../public/assets/css/styles.css">
 </head>
 
 <body>
     <h1>Balance</h1>
 
-    <table>
+    <table class="balance-table">
         <thead>Keep an eye on your money</thead>
         <tbody>
             <?php
@@ -32,13 +33,13 @@
         </tbody>
             <tfoot>
                 <tr>
-                    <td>Total Income</td>
+                    <td>Total Income <?= $totalIncome ?></td>
                 </tr>
                 <tr>
-                    <td>Total Expense</td>
+                    <td>Total Expense <?= $totalExpense ?></td>
                 </tr>
                 <tr>
-                    <td>Net Total</td>
+                    <td>Net Total <?= $netTotal ?></td>
                 </tr>
             </tfoot>
     </table>
